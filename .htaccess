@@ -1,0 +1,69 @@
+
+<IfModule mod_php5.c>
+    # adjust PHP values
+    php_value memory_limit 1024M
+    php_value max_execution_time 18000
+</IfModule>
+
+<IfModule deflate_module>
+    SetOutputFilter DEFLATE
+    SetEnvIfNoCase Request_URI .(?:gif|jpe?g|png)$ no-gzip dont-vary
+    SetEnvIfNoCase Request_URI .(?:exe|t?gz|zip|bz2|sit|rar)$ no-gzip dont-vary
+    SetEnvIfNoCase Request_URI .(?:pdf|doc|avi|mov|mp3|rm)$ no-gzip dont-vary
+    AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css
+    AddOutputFilterByType DEFLATE application/x-javascript
+</IfModule>
+
+<IfModule mod_expires.c>
+    # Add default Expires header
+    ExpiresActive On
+    ExpiresDefault "access plus 1 year"
+</IfModule>
+
+<IfModule mod_rewrite.c>
+
+    # enable rewrites
+    # For security reasons, Option followsymlinks cannot be overridden.
+    #Options +FollowSymLinks
+    Options +SymLinksIfOwnerMatch
+    RewriteEngine on
+
+    # you can put here your magento root folder
+    # path relative to web root
+    #RewriteBase /
+
+    # rewrite API2 calls to api.php (by now it is REST only)
+    RewriteRule ^api/rest api.php?type=rest [QSA,L]
+
+    # workaround for HTTP authorization
+    # in CGI environment
+    RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+
+    # TRACE and TRACK HTTP methods disabled to prevent XSS attacks
+    RewriteCond %{REQUEST_METHOD} ^TRAC[EK]
+    RewriteRule .* - [L,R=405]
+
+    # always send 404 on missing files in these folders
+    RewriteCond %{REQUEST_URI} !^/(media|templates)/
+
+    # never rewrite for existing files, directories and links
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME} !-l
+
+    # rewrite everything else to index.php
+    RewriteRule .* index.php [L]
+
+</IfModule>
+
+# By default allow all access
+Order allow,deny
+Allow from all
+Satisfy any
+
+# default index file
+DirectoryIndex index.php
+
+# Prevent character encoding issues from server overrides
+# If you still have problems, use the second line instead
+AddDefaultCharset UTF-8
