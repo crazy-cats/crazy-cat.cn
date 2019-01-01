@@ -22,3 +22,4 @@ require 'definitions';
 $composerLoader = require 'vendor/autoload.php';
 
 \CrazyCat\Framework\App::getInstance()->run( $composerLoader );
+\CrazyCat\Framework\Utility\Profile::printProfiles();
