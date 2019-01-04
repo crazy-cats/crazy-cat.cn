@@ -13,6 +13,14 @@ Download the files and use below command, follow the wizard step by step to crea
 composer create-project
 ```
 
+For website usage, you can also run these commands after creating your project:
+
+```
+composer require crazycat/module-cms
+composer require crazycat/module-menu
+composer require crazycat/module-url-rewrite
+```
+
 
 # What is Composer
 
