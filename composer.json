@@ -26,6 +26,15 @@
         "post-create-project-cmd": [
             "CrazyCat\\Framework\\App\\Setup\\Wizard::install",
             "php index.php"
+        ],
+        "post-package-install": [
+            "php index.php system:cache:clear"
+        ],
+        "post-package-update": [
+            "php index.php system:cache:clear"
+        ],
+        "post-package-uninstall": [
+            "php index.php system:cache:clear"
         ]
     }
 }
