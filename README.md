@@ -34,7 +34,7 @@ Download files here and use below command:
 composer create-project
 ```
 
-and follow the wizard step by step to create a project, then use `pub` folder as www root.
+follow the wizard step by step to create a project, then use `pub` folder as www root.
 
 For website usage, you probably need content management, menu management and URL rewrite function.
 
