@@ -29,7 +29,7 @@ It is more simple to get a correct singleton, and more flexible to override an e
 
 CrazyCat needs to run on a LAMP system.
 
-You can check details(https://crazy-cats.github.io#documentation/setup/system-requirements) here. 
+You can check [details](https://crazy-cats.github.io#documentation/setup/system-requirements) here. 
 
 
 # Documentation
