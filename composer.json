@@ -2,6 +2,7 @@
     "name": "crazycat/instance",
     "description": "Instance (minimum) of CrazyCat platform",
     "type": "project",
+    "homepage": "https://crazy-cats.github.io",
     "license": [
         "proprietary"
     ],
@@ -28,13 +29,13 @@
             "php index.php"
         ],
         "post-package-install": [
-            "php index.php system:cache:clear"
+            "CrazyCat\\Framework\\App\\Setup\\Update::execute"
         ],
         "post-package-update": [
-            "php index.php system:cache:clear"
+            "CrazyCat\\Framework\\App\\Setup\\Update::execute"
         ],
         "post-package-uninstall": [
-            "php index.php system:cache:clear"
+            "CrazyCat\\Framework\\App\\Setup\\Update::execute"
         ]
     }
 }
