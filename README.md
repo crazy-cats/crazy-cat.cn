@@ -27,7 +27,7 @@ It is more simple to get a correct singleton, and more flexible to override an e
 
 # Installation
 
-CrazyCat needs to run on a LAMP system. For more details you can check the [System Requirements](https://crazy-cats.github.io#documentation/setup/system-requirements).
+CrazyCat needs to run on a LAMP system, for more details you can check the [System Requirements](https://crazy-cats.github.io#documentation/setup/system-requirements).
 
 Download files here and use below command:
 ```
