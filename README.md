@@ -25,11 +25,26 @@ In a single entry point framework, we always use some singletons such as event m
 It is more simple to get a correct singleton, and more flexible to override an existing singleton with Dependency Injection.
 
 
-# System Requirements
+# Installation
 
-CrazyCat needs to run on a LAMP system.
+CrazyCat needs to run on a LAMP system. For more details you can check the [System Requirements](https://crazy-cats.github.io#documentation/setup/system-requirements).
 
-You can check [details](https://crazy-cats.github.io#documentation/setup/system-requirements) here. 
+Download files here and use below command:
+```
+composer create-project
+```
+
+and follow the wizard step by step to create a project, then use `pub` folder as www root.
+
+For website usage, you probably need content management, menu management and URL rewrite function.
+
+Run these commands after creating your project:
+
+```
+composer require crazycat/module-cms
+composer require crazycat/module-menu
+composer require crazycat/module-url-rewrite
+```
 
 
 # Documentation
