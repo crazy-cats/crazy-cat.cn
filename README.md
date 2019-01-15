@@ -36,9 +36,7 @@ composer create-project
 
 follow the wizard step by step to create a project, then use `pub` folder as www root.
 
-For website usage, you probably need content management, menu management and URL rewrite function.
-
-Run these commands after creating your project:
+For website usage, you probably need content management, menu management and URL rewrite function. Run these commands after creating your project:
 
 ```
 composer require crazycat/module-cms
