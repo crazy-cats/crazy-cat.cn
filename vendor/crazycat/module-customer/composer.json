@@ -1,0 +1,31 @@
+{
+    "name": "crazycat/module-customer",
+    "description": "CrazyCat Module - Customer",
+    "type": "crazycat-module",
+    "license": [
+        "proprietary"
+    ],
+    "keywords": [
+        "PSR-12"
+    ],
+    "authors": [
+        {
+            "name": "Liwei Zeng",
+            "email": "zengliwei@163.com",
+            "homepage": "https://crazy-cat.cn",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "crazycat/framework": "~1.0",
+        "crazycat/module-base": "~1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "CrazyCat\\Customer\\": "code/"
+        },
+        "files": [
+            "registration.php"
+        ]
+    }
+}

@@ -1,0 +1,46 @@
+Actions,Actions
+Create New,Create New
+items per page,items per page
+"Total %1 items, page %2 of %3","Total %1 items, page %2 of %3"
+Search,Search
+Edit,Edit
+Back,Back
+Save,Save
+Save and Continue,Save and Continue
+Successfully saved.,Successfully saved.
+Delete,Delete
+Mass Delete,Mass Delete
+Successfully deleted.,Successfully deleted.
+Sure you want to remove this item?,Sure you want to remove this item?
+Please specifiy an item.,Please specifiy an item.
+Item with specified ID does not exist.,Item with specified ID does not exist.
+
+Dashboard,Dashboard
+dynamic portal,dynamic portal
+Administrator Login,Administrator Login
+Login,Login
+Logout,Logout
+Logged in successfully.,Logged in successfully.
+Logged out successfully.,Logged out successfully.
+User does not exist or password does not match the username.,User does not exist or password does not match the username.
+Admin,Admin
+Administrators,Administrators
+ID,ID
+Name,Name
+Username,Username
+Enabled,Enabled
+Role,Role
+Password,Password
+Administrator List,Administrator List
+Edit Administrator `%1` [ ID: %2 ],Edit Administrator `%1` [ ID: %2 ]
+Create Administrator,Create Administrator
+Administrator Roles,Administrator Roles
+Parent Role,Parent Role
+Permissions,Permissions
+Role Title,Role Title
+Administrator Role List,Administrator Role List
+Edit Administrator Role `%1` [ ID: %2 ],Edit Administrator Role `%1` [ ID: %2 ]
+Create Administrator Role,Create Administrator Role
+Role record with specified parent ID does not has a path.,Role record with specified parent ID does not has a path.
+Impossible to get a role without role ID.,Impossible to get a role without role ID.
+You do not have the permission.,You do not have the permission.

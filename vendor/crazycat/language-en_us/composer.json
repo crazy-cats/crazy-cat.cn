@@ -1,0 +1,24 @@
+{
+    "name": "crazycat/language-en_us",
+    "description": "CrazyCat Language Package - English",
+    "type": "crazycat-language",
+    "license": [
+        "proprietary"
+    ],
+    "authors": [
+        {
+            "name": "Liwei Zeng",
+            "email": "zengliwei@163.com",
+            "homepage": "https://crazy-cat.cn",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "crazycat/framework": "~1.0"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ]
+    }
+}

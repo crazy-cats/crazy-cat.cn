@@ -1,41 +1,40 @@
 {
-    "name": "crazycat/instance",
-    "description": "Instance (minimum) of CrazyCat platform",
+    "name": "crazycat/project",
+    "description": "Produced by CrazyCat platform",
     "type": "project",
-    "homepage": "https://crazy-cats.github.io",
     "license": [
         "proprietary"
     ],
     "authors": [
         {
-            "name": "Bruce Z",
+            "name": "Liwei Zeng",
             "email": "zengliwei@163.com",
-            "homepage": "http://crazy-cat.co",
+            "homepage": "https://crazy-cat.cn",
             "role": "Developer"
         }
     ],
+    "homepage": "https://crazy-cat.cn",
     "require": {
-        "php": ">5.6.0",
-        "crazycat/framework": "~1.0"
+        "php": ">7.3.0",
+        "monolog/monolog": "1.0.*",
+        "symfony/console": "*",
+        "crazycat/framework": "*",
+        "crazycat/language-en_us": "^1.0",
+        "crazycat/language-zh_cn": "^1.0",
+        "crazycat/module-base": "*",
+        "crazycat/module-admin": "*",
+        "crazycat/module-banner": "*",
+        "crazycat/module-content": "*",
+        "crazycat/module-customer": "*",
+        "crazycat/module-menu": "*",
+        "crazycat/module-url-rewrite": "*",
+        "crazycat/theme-backend-default": "*",
+        "crazycat/theme-frontend-default": "*"
     },
-    "autoload": {
-        "psr-4": {
-            "": "app/modules"
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://repo.crazy-cat.cn"
         }
-    },
-    "scripts": {
-        "post-create-project-cmd": [
-            "CrazyCat\\Framework\\App\\Setup\\Wizard::install",
-            "php bin/crazycat"
-        ],
-        "post-package-install": [
-            "CrazyCat\\Framework\\App\\Setup\\Update::execute"
-        ],
-        "post-package-update": [
-            "CrazyCat\\Framework\\App\\Setup\\Update::execute"
-        ],
-        "post-package-uninstall": [
-            "CrazyCat\\Framework\\App\\Setup\\Update::execute"
-        ]
-    }
+    ]
 }

@@ -1,0 +1,134 @@
+Actions,操作
+Action,操作
+Create New,创建新记录
+items per page,个记录每页
+"Total %1 items, page %2 of %3",共 %1 个记录，%3 页中的第 %2 页
+Search,搜索
+Title,标题
+Edit,编辑
+Back,返回
+Save,保存
+Save and Continue,保存并继续编辑
+Successfully saved.,保存成功。
+Delete,删除
+Mass Delete,批量删除
+Successfully deleted.,删除成功。
+Sure you want to remove this item?,确定要删除这个记录？
+Please specifiy an item.,请指定一个记录。
+Item with specified ID does not exist.,指定 ID 所对应的记录不存在。
+No matched record found.,找不到匹配的记录。
+Yes,是
+No,否
+General,一般选项
+Sort Order,排序
+
+dynamic portal,动态门户
+Login,登录
+Logout,登出
+Logged in successfully.,登录成功。
+Logged out successfully.,登出成功。
+Dashboard,仪表板
+Stage,舞台
+Stages,舞台
+Front Stage,前端舞台
+Front Stage List,前端舞台列表
+Create Front Stage,创建前端舞台
+Edit Front Stage `%1` [ ID: %2 ],编辑前端舞台 `%1` [ ID: %2 ]
+Stage Name,舞台名称
+Code,编号
+Is Default,默认选中
+Configuration,系统设置
+Configurations saved successfully.,系统设置保存成功。
+Scope ID is required.,作用域 ID 为必选。
+Global,全局
+Frontend,前台
+Backend,后台
+Timezone,时区
+Allowed Languages,可用语言
+Default Languages,默认语言
+Website,网站
+Default Page Title,默认页面标题
+Default Meta Keywords,默认元关键字
+Default Meta Description,默认元描述
+Default Robots,默认 Robots
+
+Administrator,管理员
+Administrator Login,管理员登录
+User does not exist or password does not match the username.,用户不存在，或者密码与用户名不对应。
+Admin,管理员
+Administrators,管理员
+ID,ID
+Name,名称
+Username,用户名
+Enabled,启用
+Role,角色
+Password,密码
+Administrator List,管理员列表
+Edit Administrator `%1` [ ID: %2 ],编辑管理员 %1 [ ID: %2 ]
+Create Administrator,创建管理员
+Administrator Roles,管理员角色
+Parent Role,上级角色
+Permissions,权限
+Role Title,角色称号
+Administrator Role List,管理员角色列表
+Edit Administrator Role `%1` [ ID: %2 ],编辑管理员角色 %1 [ ID: %2 ]
+Create Administrator Role,创建管理员角色
+Role record with specified parent ID does not has a path.,指定的上级角色没有设置合法路径。
+Impossible to get a role without role ID.,无法获取一个不含 ID 的角色。
+You do not have the permission.,你没有权限执行这个操作。
+Actions Log,操作记录
+Time,时间
+
+Menus,菜单
+Menu,菜单
+Menu List,菜单列表
+Menu Name,菜单名称
+Identifier,编号
+Menu Items,菜单元素
+Items of Menu `%1` [ ID: %2 ],菜单元素 `%1` [ ID: %2 ]
+Edit Menu Item `%1` [ ID: %2 ],编辑菜单元素 `%1` [ ID: %2 ]
+Create Menu Item,创建菜单元素
+Target,目标
+Parent Item,上级元素
+Type,类型
+Menu with specified ID does not exist.,指定 ID 的菜单不存在。
+
+Contents,静态内容
+Content Blocks,静态块
+Content Block List,静态块列表
+Block Title,静态块标题
+Content Pages,静态内容页
+Content Page List,静态内容页列表
+Create Content Page,创建静态内容页
+Edit Content Page `%1` [ ID: %2 ],编辑静态内容页 `%1` [ ID: %2 ]
+Page Title,页面标题
+Content,内容
+Meta Keywords,元关键字
+Meta Description,元描述
+Robots,Robots
+Design,设计
+Layout,布局
+
+URL Rewrite,URL 重写
+URL Rewrite List,URL 重写列表
+Request Path,请求路径
+Target Path,目标路径
+Entity ID,实体 ID
+Entity Type,实体类型
+Create URL Rewrite,创建 URL 重写记录
+Edit URL Rewrite `%1` [ ID: %2 ],编辑 URL 重写记录 `%1` [ ID: %2 ]
+
+Customer,用户
+Customer List,用户列表
+Create Customer,创建用户
+Edit Customer `%1` [ ID: %2 ],编辑用户 `%1` [ ID: %2 ]
+Last Name,姓
+First Name,名
+Mobile,手机号码
+WeChat,微信号
+Customer Groups,用户组
+Customer Group List,用户组列表
+Create Customer Group,创建用户组
+Edit Customer Group `%1` [ ID: %2 ],编辑用户组 `%1` [ ID: %2 ]
+Group Name,名字
+Group Code,编号

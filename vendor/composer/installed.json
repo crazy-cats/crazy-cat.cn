@@ -1,0 +1,1411 @@
+[
+    {
+        "name": "crazycat/framework",
+        "version": "v1.0.0",
+        "version_normalized": "1.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/crazy-cats/framework.git",
+            "reference": "10b8605306ea1882899db6e20e4df0877ca4e705"
+        },
+        "dist": {
+            "type": "tar",
+            "url": "https://repo.crazy-cat.cn//dist/crazycat/framework/crazycat-framework-v1.0.0-0d1a7e.tar",
+            "reference": "10b8605306ea1882899db6e20e4df0877ca4e705",
+            "shasum": "b46c65d0ac523be8947729c17392c8d0034d9d18"
+        },
+        "require": {
+            "crazycat/language-en_us": "~1.0",
+            "monolog/monolog": "1.0.*",
+            "php": ">7.3.0",
+            "symfony/console": "*"
+        },
+        "time": "2020-06-12T12:18:47+00:00",
+        "type": "crazycat-library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "CrazyCat\\Framework\\": "src"
+            },
+            "files": [
+                "src/alias.php"
+            ]
+        },
+        "license": [
+            "proprietary"
+        ],
+        "authors": [
+            {
+                "name": "Liwei Zeng",
+                "email": "zengliwei@163.com",
+                "homepage": "https://crazy-cat.cn",
+                "role": "Developer"
+            }
+        ],
+        "description": "CrazyCat Framework",
+        "keywords": [
+            "PSR-12"
+        ]
+    },
+    {
+        "name": "crazycat/language-en_us",
+        "version": "v1.0.0",
+        "version_normalized": "1.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/crazy-cats/language-en_us.git",
+            "reference": "7074a29ea436694c5d5b722575a4101997a2bfbf"
+        },
+        "dist": {
+            "type": "tar",
+            "url": "https://repo.crazy-cat.cn//dist/crazycat/language-en_us/crazycat-language-en_us-v1.0.0-785c4c.tar",
+            "reference": "7074a29ea436694c5d5b722575a4101997a2bfbf",
+            "shasum": "59bb324ae8ec9290ff2ac41c15891b9ab21ffc55"
+        },
+        "require": {
+            "crazycat/framework": "~1.0"
+        },
+        "time": "2020-06-10T02:47:12+00:00",
+        "type": "crazycat-language",
+        "installation-source": "dist",
+        "autoload": {
+            "files": [
+                "registration.php"
+            ]
+        },
+        "license": [
+            "proprietary"
+        ],
+        "authors": [
+            {
+                "name": "Liwei Zeng",
+                "email": "zengliwei@163.com",
+                "homepage": "https://crazy-cat.cn",
+                "role": "Developer"
+            }
+        ],
+        "description": "CrazyCat Language Package - English"
+    },
+    {
+        "name": "crazycat/language-zh_cn",
+        "version": "v1.0.0",
+        "version_normalized": "1.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/crazy-cats/language-zh_cn.git",
+            "reference": "09e4b5cd6505be42cbe1e59e74ebe56bbcd29006"
+        },
+        "dist": {
+            "type": "tar",
+            "url": "https://repo.crazy-cat.cn//dist/crazycat/language-zh_cn/crazycat-language-zh_cn-v1.0.0-8ba3f1.tar",
+            "reference": "09e4b5cd6505be42cbe1e59e74ebe56bbcd29006",
+            "shasum": "781b4b2a8cd92f6115f607013b9fffc77ed6d612"
+        },
+        "require": {
+            "crazycat/framework": "~1.0"
+        },
+        "time": "2020-06-11T06:13:37+00:00",
+        "type": "crazycat-language",
+        "installation-source": "dist",
+        "autoload": {
+            "files": [
+                "registration.php"
+            ]
+        },
+        "license": [
+            "proprietary"
+        ],
+        "authors": [
+            {
+                "name": "Liwei Zeng",
+                "email": "zengliwei@163.com",
+                "homepage": "https://crazy-cat.cn",
+                "role": "Developer"
+            }
+        ],
+        "description": "CrazyCat Language Package - Simple Chinese"
+    },
+    {
+        "name": "crazycat/module-admin",
+        "version": "v1.0.0",
+        "version_normalized": "1.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/crazy-cats/module-admin.git",
+            "reference": "44e58aa3f4b573f5f9666c90f8baa055219640bf"
+        },
+        "dist": {
+            "type": "tar",
+            "url": "https://repo.crazy-cat.cn//dist/crazycat/module-admin/crazycat-module-admin-v1.0.0-2fb022.tar",
+            "reference": "44e58aa3f4b573f5f9666c90f8baa055219640bf",
+            "shasum": "00f74ff4cfe3e775fdca0dc9bf8228421159dfd0"
+        },
+        "require": {
+            "crazycat/framework": "~1.0",
+            "crazycat/module-base": "~1.0"
+        },
+        "time": "2020-06-09T05:01:18+00:00",
+        "type": "crazycat-module",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "CrazyCat\\Admin\\": "code/"
+            },
+            "files": [
+                "registration.php"
+            ]
+        },
+        "license": [
+            "proprietary"
+        ],
+        "authors": [
+            {
+                "name": "Liwei Zeng",
+                "email": "zengliwei@163.com",
+                "homepage": "https://crazy-cat.cn",
+                "role": "Developer"
+            }
+        ],
+        "description": "CrazyCat Module - Admin",
+        "keywords": [
+            "PSR-12"
+        ]
+    },
+    {
+        "name": "crazycat/module-banner",
+        "version": "v1.0.0",
+        "version_normalized": "1.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/crazy-cats/module-banner.git",
+            "reference": "76cea1d00cc32557add541119cbfd80e83306367"
+        },
+        "dist": {
+            "type": "tar",
+            "url": "https://repo.crazy-cat.cn//dist/crazycat/module-banner/crazycat-module-banner-v1.0.0-c5ce78.tar",
+            "reference": "76cea1d00cc32557add541119cbfd80e83306367",
+            "shasum": "5032fa2dea179f6efc7ca355cb06d2e147b576ea"
+        },
+        "require": {
+            "crazycat/framework": "~1.0",
+            "crazycat/module-base": "~1.0"
+        },
+        "time": "2020-06-12T12:19:07+00:00",
+        "type": "crazycat-module",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "CrazyCat\\Customer\\": "code/"
+            },
+            "files": [
+                "registration.php"
+            ]
+        },
+        "license": [
+            "proprietary"
+        ],
+        "authors": [
+            {
+                "name": "Liwei Zeng",
+                "email": "zengliwei@163.com",
+                "homepage": "https://crazy-cat.cn",
+                "role": "Developer"
+            }
+        ],
+        "description": "CrazyCat Module - Banner",
+        "keywords": [
+            "PSR-12"
+        ]
+    },
+    {
+        "name": "crazycat/module-base",
+        "version": "v1.0.0",
+        "version_normalized": "1.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/crazy-cats/module-base.git",
+            "reference": "43e7a9bce3069b4f325151ba334aaa73f9d26220"
+        },
+        "dist": {
+            "type": "tar",
+            "url": "https://repo.crazy-cat.cn//dist/crazycat/module-base/crazycat-module-base-v1.0.0-12e1b0.tar",
+            "reference": "43e7a9bce3069b4f325151ba334aaa73f9d26220",
+            "shasum": "e017fb9e2928c330eb53642d40688c3aa376c269"
+        },
+        "require": {
+            "crazycat/framework": "~1.0"
+        },
+        "time": "2020-06-21T04:14:34+00:00",
+        "type": "crazycat-module",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "CrazyCat\\Base\\": "code/"
+            },
+            "files": [
+                "registration.php"
+            ]
+        },
+        "license": [
+            "proprietary"
+        ],
+        "authors": [
+            {
+                "name": "Liwei Zeng",
+                "email": "zengliwei@163.com",
+                "homepage": "https://crazy-cat.cn",
+                "role": "Developer"
+            }
+        ],
+        "description": "CrazyCat Module - Base",
+        "keywords": [
+            "PSR-12"
+        ]
+    },
+    {
+        "name": "crazycat/module-content",
+        "version": "v1.0.0",
+        "version_normalized": "1.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/crazy-cats/module-content.git",
+            "reference": "a9f5acf7e34439229ab1212bb18ca9cb688eeab9"
+        },
+        "dist": {
+            "type": "tar",
+            "url": "https://repo.crazy-cat.cn//dist/crazycat/module-content/crazycat-module-content-v1.0.0-c9e255.tar",
+            "reference": "a9f5acf7e34439229ab1212bb18ca9cb688eeab9",
+            "shasum": "ccf2062ca30292f2f81dca63c006e612b23c2c80"
+        },
+        "require": {
+            "crazycat/framework": "~1.0",
+            "crazycat/module-base": "~1.0"
+        },
+        "time": "2020-06-12T12:22:39+00:00",
+        "type": "crazycat-module",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "CrazyCat\\Content\\": "code/"
+            },
+            "files": [
+                "registration.php"
+            ]
+        },
+        "license": [
+            "proprietary"
+        ],
+        "authors": [
+            {
+                "name": "Liwei Zeng",
+                "email": "zengliwei@163.com",
+                "homepage": "https://crazy-cat.cn",
+                "role": "Developer"
+            }
+        ],
+        "description": "CrazyCat Module - Content",
+        "keywords": [
+            "PSR-12"
+        ]
+    },
+    {
+        "name": "crazycat/module-customer",
+        "version": "v1.0.0",
+        "version_normalized": "1.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/crazy-cats/module-customer.git",
+            "reference": "897af1135fd107c72a38ed79fcbcf15967336a7e"
+        },
+        "dist": {
+            "type": "tar",
+            "url": "https://repo.crazy-cat.cn//dist/crazycat/module-customer/crazycat-module-customer-v1.0.0-392dde.tar",
+            "reference": "897af1135fd107c72a38ed79fcbcf15967336a7e",
+            "shasum": "9b9aa5f467df9b32943e849116b7c849f43f5ba3"
+        },
+        "require": {
+            "crazycat/framework": "~1.0",
+            "crazycat/module-base": "~1.0"
+        },
+        "time": "2020-06-11T04:24:32+00:00",
+        "type": "crazycat-module",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "CrazyCat\\Customer\\": "code/"
+            },
+            "files": [
+                "registration.php"
+            ]
+        },
+        "license": [
+            "proprietary"
+        ],
+        "authors": [
+            {
+                "name": "Liwei Zeng",
+                "email": "zengliwei@163.com",
+                "homepage": "https://crazy-cat.cn",
+                "role": "Developer"
+            }
+        ],
+        "description": "CrazyCat Module - Customer",
+        "keywords": [
+            "PSR-12"
+        ]
+    },
+    {
+        "name": "crazycat/module-menu",
+        "version": "v1.0.0",
+        "version_normalized": "1.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/crazy-cats/module-menu.git",
+            "reference": "3d5afd3038004d44678c6c020d3f1f0aa73104d2"
+        },
+        "dist": {
+            "type": "tar",
+            "url": "https://repo.crazy-cat.cn//dist/crazycat/module-menu/crazycat-module-menu-v1.0.0-ea22c6.tar",
+            "reference": "3d5afd3038004d44678c6c020d3f1f0aa73104d2",
+            "shasum": "0af5d32345455e0fdeb45458110b694205b5c7ee"
+        },
+        "require": {
+            "crazycat/framework": "~1.0",
+            "crazycat/module-base": "~1.0"
+        },
+        "time": "2020-06-11T17:50:59+00:00",
+        "type": "crazycat-module",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "CrazyCat\\Menu\\": "code/"
+            },
+            "files": [
+                "registration.php"
+            ]
+        },
+        "license": [
+            "proprietary"
+        ],
+        "authors": [
+            {
+                "name": "Liwei Zeng",
+                "email": "zengliwei@163.com",
+                "homepage": "https://crazy-cat.cn",
+                "role": "Developer"
+            }
+        ],
+        "description": "CrazyCat Module - Menu",
+        "keywords": [
+            "PSR-12"
+        ]
+    },
+    {
+        "name": "crazycat/module-url-rewrite",
+        "version": "v1.0.0",
+        "version_normalized": "1.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/crazy-cats/module-url-rewrite.git",
+            "reference": "93165edee9d1cbcb7d9e810dc7c22870b74c0105"
+        },
+        "dist": {
+            "type": "tar",
+            "url": "https://repo.crazy-cat.cn//dist/crazycat/module-url-rewrite/crazycat-module-url-rewrite-v1.0.0-91069c.tar",
+            "reference": "93165edee9d1cbcb7d9e810dc7c22870b74c0105",
+            "shasum": "b2bfa82e144e1a0bcbc231e0d54aa7773fefc3d8"
+        },
+        "require": {
+            "crazycat/framework": "~1.0",
+            "crazycat/module-base": "~1.0"
+        },
+        "time": "2020-06-12T02:26:24+00:00",
+        "type": "crazycat-module",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "CrazyCat\\UrlRewrite\\": "code/"
+            },
+            "files": [
+                "registration.php"
+            ]
+        },
+        "license": [
+            "proprietary"
+        ],
+        "authors": [
+            {
+                "name": "Liwei Zeng",
+                "email": "zengliwei@163.com",
+                "homepage": "https://crazy-cat.cn",
+                "role": "Developer"
+            }
+        ],
+        "description": "CrazyCat Module - URL Rewrite",
+        "keywords": [
+            "PSR-12"
+        ]
+    },
+    {
+        "name": "crazycat/theme-backend-default",
+        "version": "v1.0.0",
+        "version_normalized": "1.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/crazy-cats/theme-backend-default.git",
+            "reference": "99145f6de94ab5ebdc78531052492a916f7161c0"
+        },
+        "dist": {
+            "type": "tar",
+            "url": "https://repo.crazy-cat.cn//dist/crazycat/theme-backend-default/crazycat-theme-backend-default-v1.0.0-fdaa52.tar",
+            "reference": "99145f6de94ab5ebdc78531052492a916f7161c0",
+            "shasum": "9a53b96f94bf908d67fd327932bd2d76dfc717e6"
+        },
+        "require": {
+            "crazycat/framework": "~1.0"
+        },
+        "time": "2020-06-12T12:19:38+00:00",
+        "type": "crazycat-theme",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.x-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "files": [
+                "registration.php"
+            ]
+        },
+        "license": [
+            "proprietary"
+        ],
+        "authors": [
+            {
+                "name": "Liwei Zeng",
+                "email": "zengliwei@163.com",
+                "homepage": "https://crazy-cat.cn",
+                "role": "Developer"
+            }
+        ],
+        "description": "CrazyCat default backend theme"
+    },
+    {
+        "name": "crazycat/theme-frontend-default",
+        "version": "v1.0.0",
+        "version_normalized": "1.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/crazy-cats/theme-frontend-default.git",
+            "reference": "6a88746f6600db38295eda7e44e9b91bc1b02bbd"
+        },
+        "dist": {
+            "type": "tar",
+            "url": "https://repo.crazy-cat.cn//dist/crazycat/theme-frontend-default/crazycat-theme-frontend-default-v1.0.0-36b70e.tar",
+            "reference": "6a88746f6600db38295eda7e44e9b91bc1b02bbd",
+            "shasum": "d7b739ea56755ce11b8be2db08edfcb5bc2c1359"
+        },
+        "require": {
+            "crazycat/framework": "~1.0"
+        },
+        "time": "2020-06-11T02:55:23+00:00",
+        "type": "crazycat-theme",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.x-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "files": [
+                "registration.php"
+            ]
+        },
+        "license": [
+            "proprietary"
+        ],
+        "authors": [
+            {
+                "name": "Liwei Zeng",
+                "email": "zengliwei@163.com",
+                "homepage": "https://crazy-cat.cn",
+                "role": "Developer"
+            }
+        ],
+        "description": "CrazyCat default frontend theme"
+    },
+    {
+        "name": "monolog/monolog",
+        "version": "1.0.2",
+        "version_normalized": "1.0.2.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/Seldaek/monolog.git",
+            "reference": "b704c49a3051536f67f2d39f13568f74615b9922"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/Seldaek/monolog/zipball/b704c49a3051536f67f2d39f13568f74615b9922",
+            "reference": "b704c49a3051536f67f2d39f13568f74615b9922",
+            "shasum": "",
+            "mirrors": [
+                {
+                    "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                    "preferred": true
+                }
+            ]
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "time": "2011-10-24T09:39:02+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "Monolog": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Jordi Boggiano",
+                "email": "j.boggiano@seld.be",
+                "homepage": "http://seld.be",
+                "role": "Developer"
+            }
+        ],
+        "description": "Logging for PHP 5.3",
+        "homepage": "http://github.com/Seldaek/monolog",
+        "keywords": [
+            "log",
+            "logging"
+        ]
+    },
+    {
+        "name": "psr/container",
+        "version": "1.0.0",
+        "version_normalized": "1.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/php-fig/container.git",
+            "reference": "b7ce3b176482dbbc1245ebf52b181af44c2cf55f"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/php-fig/container/zipball/b7ce3b176482dbbc1245ebf52b181af44c2cf55f",
+            "reference": "b7ce3b176482dbbc1245ebf52b181af44c2cf55f",
+            "shasum": "",
+            "mirrors": [
+                {
+                    "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                    "preferred": true
+                }
+            ]
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "time": "2017-02-14T16:28:37+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.0.x-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Psr\\Container\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "PHP-FIG",
+                "homepage": "http://www.php-fig.org/"
+            }
+        ],
+        "description": "Common Container Interface (PHP FIG PSR-11)",
+        "homepage": "https://github.com/php-fig/container",
+        "keywords": [
+            "PSR-11",
+            "container",
+            "container-interface",
+            "container-interop",
+            "psr"
+        ]
+    },
+    {
+        "name": "symfony/console",
+        "version": "v5.1.2",
+        "version_normalized": "5.1.2.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/console.git",
+            "reference": "34ac555a3627e324b660e318daa07572e1140123"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/symfony/console/zipball/34ac555a3627e324b660e318daa07572e1140123",
+            "reference": "34ac555a3627e324b660e318daa07572e1140123",
+            "shasum": "",
+            "mirrors": [
+                {
+                    "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                    "preferred": true
+                }
+            ]
+        },
+        "require": {
+            "php": ">=7.2.5",
+            "symfony/polyfill-mbstring": "~1.0",
+            "symfony/polyfill-php73": "^1.8",
+            "symfony/polyfill-php80": "^1.15",
+            "symfony/service-contracts": "^1.1|^2",
+            "symfony/string": "^5.1"
+        },
+        "conflict": {
+            "symfony/dependency-injection": "<4.4",
+            "symfony/dotenv": "<5.1",
+            "symfony/event-dispatcher": "<4.4",
+            "symfony/lock": "<4.4",
+            "symfony/process": "<4.4"
+        },
+        "provide": {
+            "psr/log-implementation": "1.0"
+        },
+        "require-dev": {
+            "psr/log": "~1.0",
+            "symfony/config": "^4.4|^5.0",
+            "symfony/dependency-injection": "^4.4|^5.0",
+            "symfony/event-dispatcher": "^4.4|^5.0",
+            "symfony/lock": "^4.4|^5.0",
+            "symfony/process": "^4.4|^5.0",
+            "symfony/var-dumper": "^4.4|^5.0"
+        },
+        "suggest": {
+            "psr/log": "For using the console logger",
+            "symfony/event-dispatcher": "",
+            "symfony/lock": "",
+            "symfony/process": ""
+        },
+        "time": "2020-06-15T12:59:21+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "5.1-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Symfony\\Component\\Console\\": ""
+            },
+            "exclude-from-classmap": [
+                "/Tests/"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Fabien Potencier",
+                "email": "fabien@symfony.com"
+            },
+            {
+                "name": "Symfony Community",
+                "homepage": "https://symfony.com/contributors"
+            }
+        ],
+        "description": "Symfony Console Component",
+        "homepage": "https://symfony.com",
+        "funding": [
+            {
+                "url": "https://symfony.com/sponsor",
+                "type": "custom"
+            },
+            {
+                "url": "https://github.com/fabpot",
+                "type": "github"
+            },
+            {
+                "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                "type": "tidelift"
+            }
+        ]
+    },
+    {
+        "name": "symfony/polyfill-ctype",
+        "version": "v1.17.0",
+        "version_normalized": "1.17.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/polyfill-ctype.git",
+            "reference": "e94c8b1bbe2bc77507a1056cdb06451c75b427f9"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/symfony/polyfill-ctype/zipball/e94c8b1bbe2bc77507a1056cdb06451c75b427f9",
+            "reference": "e94c8b1bbe2bc77507a1056cdb06451c75b427f9",
+            "shasum": "",
+            "mirrors": [
+                {
+                    "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                    "preferred": true
+                }
+            ]
+        },
+        "require": {
+            "php": ">=5.3.3"
+        },
+        "suggest": {
+            "ext-ctype": "For best performance"
+        },
+        "time": "2020-05-12T16:14:59+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.17-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Symfony\\Polyfill\\Ctype\\": ""
+            },
+            "files": [
+                "bootstrap.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Gert de Pagter",
+                "email": "BackEndTea@gmail.com"
+            },
+            {
+                "name": "Symfony Community",
+                "homepage": "https://symfony.com/contributors"
+            }
+        ],
+        "description": "Symfony polyfill for ctype functions",
+        "homepage": "https://symfony.com",
+        "keywords": [
+            "compatibility",
+            "ctype",
+            "polyfill",
+            "portable"
+        ],
+        "funding": [
+            {
+                "url": "https://symfony.com/sponsor",
+                "type": "custom"
+            },
+            {
+                "url": "https://github.com/fabpot",
+                "type": "github"
+            },
+            {
+                "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                "type": "tidelift"
+            }
+        ]
+    },
+    {
+        "name": "symfony/polyfill-intl-grapheme",
+        "version": "v1.17.0",
+        "version_normalized": "1.17.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/polyfill-intl-grapheme.git",
+            "reference": "e094b0770f7833fdf257e6ba4775be4e258230b2"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/symfony/polyfill-intl-grapheme/zipball/e094b0770f7833fdf257e6ba4775be4e258230b2",
+            "reference": "e094b0770f7833fdf257e6ba4775be4e258230b2",
+            "shasum": "",
+            "mirrors": [
+                {
+                    "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                    "preferred": true
+                }
+            ]
+        },
+        "require": {
+            "php": ">=5.3.3"
+        },
+        "suggest": {
+            "ext-intl": "For best performance"
+        },
+        "time": "2020-05-12T16:47:27+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.17-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Symfony\\Polyfill\\Intl\\Grapheme\\": ""
+            },
+            "files": [
+                "bootstrap.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Nicolas Grekas",
+                "email": "p@tchwork.com"
+            },
+            {
+                "name": "Symfony Community",
+                "homepage": "https://symfony.com/contributors"
+            }
+        ],
+        "description": "Symfony polyfill for intl's grapheme_* functions",
+        "homepage": "https://symfony.com",
+        "keywords": [
+            "compatibility",
+            "grapheme",
+            "intl",
+            "polyfill",
+            "portable",
+            "shim"
+        ],
+        "funding": [
+            {
+                "url": "https://symfony.com/sponsor",
+                "type": "custom"
+            },
+            {
+                "url": "https://github.com/fabpot",
+                "type": "github"
+            },
+            {
+                "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                "type": "tidelift"
+            }
+        ]
+    },
+    {
+        "name": "symfony/polyfill-intl-normalizer",
+        "version": "v1.17.0",
+        "version_normalized": "1.17.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/polyfill-intl-normalizer.git",
+            "reference": "1357b1d168eb7f68ad6a134838e46b0b159444a9"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/symfony/polyfill-intl-normalizer/zipball/1357b1d168eb7f68ad6a134838e46b0b159444a9",
+            "reference": "1357b1d168eb7f68ad6a134838e46b0b159444a9",
+            "shasum": "",
+            "mirrors": [
+                {
+                    "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                    "preferred": true
+                }
+            ]
+        },
+        "require": {
+            "php": ">=5.3.3"
+        },
+        "suggest": {
+            "ext-intl": "For best performance"
+        },
+        "time": "2020-05-12T16:14:59+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.17-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Symfony\\Polyfill\\Intl\\Normalizer\\": ""
+            },
+            "files": [
+                "bootstrap.php"
+            ],
+            "classmap": [
+                "Resources/stubs"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Nicolas Grekas",
+                "email": "p@tchwork.com"
+            },
+            {
+                "name": "Symfony Community",
+                "homepage": "https://symfony.com/contributors"
+            }
+        ],
+        "description": "Symfony polyfill for intl's Normalizer class and related functions",
+        "homepage": "https://symfony.com",
+        "keywords": [
+            "compatibility",
+            "intl",
+            "normalizer",
+            "polyfill",
+            "portable",
+            "shim"
+        ],
+        "funding": [
+            {
+                "url": "https://symfony.com/sponsor",
+                "type": "custom"
+            },
+            {
+                "url": "https://github.com/fabpot",
+                "type": "github"
+            },
+            {
+                "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                "type": "tidelift"
+            }
+        ]
+    },
+    {
+        "name": "symfony/polyfill-mbstring",
+        "version": "v1.17.0",
+        "version_normalized": "1.17.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/polyfill-mbstring.git",
+            "reference": "fa79b11539418b02fc5e1897267673ba2c19419c"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/fa79b11539418b02fc5e1897267673ba2c19419c",
+            "reference": "fa79b11539418b02fc5e1897267673ba2c19419c",
+            "shasum": "",
+            "mirrors": [
+                {
+                    "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                    "preferred": true
+                }
+            ]
+        },
+        "require": {
+            "php": ">=5.3.3"
+        },
+        "suggest": {
+            "ext-mbstring": "For best performance"
+        },
+        "time": "2020-05-12T16:47:27+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.17-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Symfony\\Polyfill\\Mbstring\\": ""
+            },
+            "files": [
+                "bootstrap.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Nicolas Grekas",
+                "email": "p@tchwork.com"
+            },
+            {
+                "name": "Symfony Community",
+                "homepage": "https://symfony.com/contributors"
+            }
+        ],
+        "description": "Symfony polyfill for the Mbstring extension",
+        "homepage": "https://symfony.com",
+        "keywords": [
+            "compatibility",
+            "mbstring",
+            "polyfill",
+            "portable",
+            "shim"
+        ],
+        "funding": [
+            {
+                "url": "https://symfony.com/sponsor",
+                "type": "custom"
+            },
+            {
+                "url": "https://github.com/fabpot",
+                "type": "github"
+            },
+            {
+                "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                "type": "tidelift"
+            }
+        ]
+    },
+    {
+        "name": "symfony/polyfill-php73",
+        "version": "v1.17.0",
+        "version_normalized": "1.17.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/polyfill-php73.git",
+            "reference": "a760d8964ff79ab9bf057613a5808284ec852ccc"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/symfony/polyfill-php73/zipball/a760d8964ff79ab9bf057613a5808284ec852ccc",
+            "reference": "a760d8964ff79ab9bf057613a5808284ec852ccc",
+            "shasum": "",
+            "mirrors": [
+                {
+                    "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                    "preferred": true
+                }
+            ]
+        },
+        "require": {
+            "php": ">=5.3.3"
+        },
+        "time": "2020-05-12T16:47:27+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.17-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Symfony\\Polyfill\\Php73\\": ""
+            },
+            "files": [
+                "bootstrap.php"
+            ],
+            "classmap": [
+                "Resources/stubs"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Nicolas Grekas",
+                "email": "p@tchwork.com"
+            },
+            {
+                "name": "Symfony Community",
+                "homepage": "https://symfony.com/contributors"
+            }
+        ],
+        "description": "Symfony polyfill backporting some PHP 7.3+ features to lower PHP versions",
+        "homepage": "https://symfony.com",
+        "keywords": [
+            "compatibility",
+            "polyfill",
+            "portable",
+            "shim"
+        ],
+        "funding": [
+            {
+                "url": "https://symfony.com/sponsor",
+                "type": "custom"
+            },
+            {
+                "url": "https://github.com/fabpot",
+                "type": "github"
+            },
+            {
+                "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                "type": "tidelift"
+            }
+        ]
+    },
+    {
+        "name": "symfony/polyfill-php80",
+        "version": "v1.17.0",
+        "version_normalized": "1.17.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/polyfill-php80.git",
+            "reference": "5e30b2799bc1ad68f7feb62b60a73743589438dd"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/symfony/polyfill-php80/zipball/5e30b2799bc1ad68f7feb62b60a73743589438dd",
+            "reference": "5e30b2799bc1ad68f7feb62b60a73743589438dd",
+            "shasum": "",
+            "mirrors": [
+                {
+                    "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                    "preferred": true
+                }
+            ]
+        },
+        "require": {
+            "php": ">=7.0.8"
+        },
+        "time": "2020-05-12T16:47:27+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.17-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Symfony\\Polyfill\\Php80\\": ""
+            },
+            "files": [
+                "bootstrap.php"
+            ],
+            "classmap": [
+                "Resources/stubs"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Ion Bazan",
+                "email": "ion.bazan@gmail.com"
+            },
+            {
+                "name": "Nicolas Grekas",
+                "email": "p@tchwork.com"
+            },
+            {
+                "name": "Symfony Community",
+                "homepage": "https://symfony.com/contributors"
+            }
+        ],
+        "description": "Symfony polyfill backporting some PHP 8.0+ features to lower PHP versions",
+        "homepage": "https://symfony.com",
+        "keywords": [
+            "compatibility",
+            "polyfill",
+            "portable",
+            "shim"
+        ],
+        "funding": [
+            {
+                "url": "https://symfony.com/sponsor",
+                "type": "custom"
+            },
+            {
+                "url": "https://github.com/fabpot",
+                "type": "github"
+            },
+            {
+                "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                "type": "tidelift"
+            }
+        ]
+    },
+    {
+        "name": "symfony/service-contracts",
+        "version": "v2.1.2",
+        "version_normalized": "2.1.2.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/service-contracts.git",
+            "reference": "66a8f0957a3ca54e4f724e49028ab19d75a8918b"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/symfony/service-contracts/zipball/66a8f0957a3ca54e4f724e49028ab19d75a8918b",
+            "reference": "66a8f0957a3ca54e4f724e49028ab19d75a8918b",
+            "shasum": "",
+            "mirrors": [
+                {
+                    "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                    "preferred": true
+                }
+            ]
+        },
+        "require": {
+            "php": ">=7.2.5",
+            "psr/container": "^1.0"
+        },
+        "suggest": {
+            "symfony/service-implementation": ""
+        },
+        "time": "2020-05-20T17:43:50+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "2.1-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Symfony\\Contracts\\Service\\": ""
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Nicolas Grekas",
+                "email": "p@tchwork.com"
+            },
+            {
+                "name": "Symfony Community",
+                "homepage": "https://symfony.com/contributors"
+            }
+        ],
+        "description": "Generic abstractions related to writing services",
+        "homepage": "https://symfony.com",
+        "keywords": [
+            "abstractions",
+            "contracts",
+            "decoupling",
+            "interfaces",
+            "interoperability",
+            "standards"
+        ],
+        "funding": [
+            {
+                "url": "https://symfony.com/sponsor",
+                "type": "custom"
+            },
+            {
+                "url": "https://github.com/fabpot",
+                "type": "github"
+            },
+            {
+                "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                "type": "tidelift"
+            }
+        ]
+    },
+    {
+        "name": "symfony/string",
+        "version": "v5.1.2",
+        "version_normalized": "5.1.2.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/string.git",
+            "reference": "ac70459db781108db7c6d8981dd31ce0e29e3298"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/symfony/string/zipball/ac70459db781108db7c6d8981dd31ce0e29e3298",
+            "reference": "ac70459db781108db7c6d8981dd31ce0e29e3298",
+            "shasum": "",
+            "mirrors": [
+                {
+                    "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                    "preferred": true
+                }
+            ]
+        },
+        "require": {
+            "php": ">=7.2.5",
+            "symfony/polyfill-ctype": "~1.8",
+            "symfony/polyfill-intl-grapheme": "~1.0",
+            "symfony/polyfill-intl-normalizer": "~1.0",
+            "symfony/polyfill-mbstring": "~1.0",
+            "symfony/polyfill-php80": "~1.15"
+        },
+        "require-dev": {
+            "symfony/error-handler": "^4.4|^5.0",
+            "symfony/http-client": "^4.4|^5.0",
+            "symfony/translation-contracts": "^1.1|^2",
+            "symfony/var-exporter": "^4.4|^5.0"
+        },
+        "time": "2020-06-11T12:16:36+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "5.1-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Symfony\\Component\\String\\": ""
+            },
+            "files": [
+                "Resources/functions.php"
+            ],
+            "exclude-from-classmap": [
+                "/Tests/"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Nicolas Grekas",
+                "email": "p@tchwork.com"
+            },
+            {
+                "name": "Symfony Community",
+                "homepage": "https://symfony.com/contributors"
+            }
+        ],
+        "description": "Symfony String component",
+        "homepage": "https://symfony.com",
+        "keywords": [
+            "grapheme",
+            "i18n",
+            "string",
+            "unicode",
+            "utf-8",
+            "utf8"
+        ],
+        "funding": [
+            {
+                "url": "https://symfony.com/sponsor",
+                "type": "custom"
+            },
+            {
+                "url": "https://github.com/fabpot",
+                "type": "github"
+            },
+            {
+                "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                "type": "tidelift"
+            }
+        ]
+    }
+]

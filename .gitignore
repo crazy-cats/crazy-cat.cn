@@ -2,4 +2,3 @@
 /composer.lock
 /pub/static/*
 /var/*
-/vendor/*
