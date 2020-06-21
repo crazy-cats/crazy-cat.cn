@@ -6,13 +6,13 @@
         "source": {
             "type": "git",
             "url": "https://github.com/crazy-cats/framework.git",
-            "reference": "10b8605306ea1882899db6e20e4df0877ca4e705"
+            "reference": "10538ac1b11a87e0ed9abef2bccb5b244deb1a13"
         },
         "dist": {
             "type": "tar",
-            "url": "https://repo.crazy-cat.cn//dist/crazycat/framework/crazycat-framework-v1.0.0-0d1a7e.tar",
-            "reference": "10b8605306ea1882899db6e20e4df0877ca4e705",
-            "shasum": "b46c65d0ac523be8947729c17392c8d0034d9d18"
+            "url": "https://repo.crazy-cat.cn//dist/crazycat/framework/crazycat-framework-v1.0.0-3eab12.tar",
+            "reference": "10538ac1b11a87e0ed9abef2bccb5b244deb1a13",
+            "shasum": "b6e33475576f20615eae927606a82d85974fb20d"
         },
         "require": {
             "crazycat/language-en_us": "~1.0",
@@ -20,7 +20,7 @@
             "php": ">7.3.0",
             "symfony/console": "*"
         },
-        "time": "2020-06-12T12:18:47+00:00",
+        "time": "2020-06-21T08:27:20+00:00",
         "type": "crazycat-library",
         "installation-source": "dist",
         "autoload": {
@@ -178,24 +178,24 @@
         "source": {
             "type": "git",
             "url": "https://github.com/crazy-cats/module-banner.git",
-            "reference": "76cea1d00cc32557add541119cbfd80e83306367"
+            "reference": "4aaea26b2068964786611f236b9642ffc7e61def"
         },
         "dist": {
             "type": "tar",
-            "url": "https://repo.crazy-cat.cn//dist/crazycat/module-banner/crazycat-module-banner-v1.0.0-c5ce78.tar",
-            "reference": "76cea1d00cc32557add541119cbfd80e83306367",
-            "shasum": "5032fa2dea179f6efc7ca355cb06d2e147b576ea"
+            "url": "https://repo.crazy-cat.cn//dist/crazycat/module-banner/crazycat-module-banner-v1.0.0-a9c476.tar",
+            "reference": "4aaea26b2068964786611f236b9642ffc7e61def",
+            "shasum": "16cc762afc61ab33922585c29c375d91fb391781"
         },
         "require": {
             "crazycat/framework": "~1.0",
             "crazycat/module-base": "~1.0"
         },
-        "time": "2020-06-12T12:19:07+00:00",
+        "time": "2020-06-21T08:38:00+00:00",
         "type": "crazycat-module",
         "installation-source": "dist",
         "autoload": {
             "psr-4": {
-                "CrazyCat\\Customer\\": "code/"
+                "CrazyCat\\Banner\\": "code/"
             },
             "files": [
                 "registration.php"

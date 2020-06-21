@@ -19,8 +19,9 @@ return array(
     'CrazyCat\\UrlRewrite\\' => array($vendorDir . '/crazycat/module-url-rewrite/code'),
     'CrazyCat\\Menu\\' => array($vendorDir . '/crazycat/module-menu/code'),
     'CrazyCat\\Framework\\' => array($vendorDir . '/crazycat/framework/src'),
-    'CrazyCat\\Customer\\' => array($vendorDir . '/crazycat/module-banner/code', $vendorDir . '/crazycat/module-customer/code'),
+    'CrazyCat\\Customer\\' => array($vendorDir . '/crazycat/module-customer/code'),
     'CrazyCat\\Content\\' => array($vendorDir . '/crazycat/module-content/code'),
     'CrazyCat\\Base\\' => array($vendorDir . '/crazycat/module-base/code'),
+    'CrazyCat\\Banner\\' => array($vendorDir . '/crazycat/module-banner/code'),
     'CrazyCat\\Admin\\' => array($vendorDir . '/crazycat/module-admin/code'),
 );

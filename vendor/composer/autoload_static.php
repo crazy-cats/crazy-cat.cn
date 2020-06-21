@@ -53,6 +53,7 @@ class ComposerStaticInitbbe28deb56b833681cfe57fc3889904b
             'CrazyCat\\Customer\\' => 18,
             'CrazyCat\\Content\\' => 17,
             'CrazyCat\\Base\\' => 14,
+            'CrazyCat\\Banner\\' => 16,
             'CrazyCat\\Admin\\' => 15,
         ),
     );
@@ -112,8 +113,7 @@ class ComposerStaticInitbbe28deb56b833681cfe57fc3889904b
         ),
         'CrazyCat\\Customer\\' => 
         array (
-            0 => __DIR__ . '/..' . '/crazycat/module-banner/code',
-            1 => __DIR__ . '/..' . '/crazycat/module-customer/code',
+            0 => __DIR__ . '/..' . '/crazycat/module-customer/code',
         ),
         'CrazyCat\\Content\\' => 
         array (
@@ -122,6 +122,10 @@ class ComposerStaticInitbbe28deb56b833681cfe57fc3889904b
         'CrazyCat\\Base\\' => 
         array (
             0 => __DIR__ . '/..' . '/crazycat/module-base/code',
+        ),
+        'CrazyCat\\Banner\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/crazycat/module-banner/code',
         ),
         'CrazyCat\\Admin\\' => 
         array (
