@@ -224,18 +224,18 @@
         "source": {
             "type": "git",
             "url": "https://github.com/crazy-cats/module-base.git",
-            "reference": "43e7a9bce3069b4f325151ba334aaa73f9d26220"
+            "reference": "5c1c82aa84765a07b9e9752d7257b78279d76b0e"
         },
         "dist": {
             "type": "tar",
-            "url": "https://repo.crazy-cat.cn//dist/crazycat/module-base/crazycat-module-base-v1.0.0-12e1b0.tar",
-            "reference": "43e7a9bce3069b4f325151ba334aaa73f9d26220",
-            "shasum": "e017fb9e2928c330eb53642d40688c3aa376c269"
+            "url": "https://repo.crazy-cat.cn//dist/crazycat/module-base/crazycat-module-base-v1.0.0-732916.tar",
+            "reference": "5c1c82aa84765a07b9e9752d7257b78279d76b0e",
+            "shasum": "19227f32ce96a05f5bdc73649c880a4b3a67be9d"
         },
         "require": {
             "crazycat/framework": "~1.0"
         },
-        "time": "2020-06-21T04:14:34+00:00",
+        "time": "2020-06-21T09:17:20+00:00",
         "type": "crazycat-module",
         "installation-source": "dist",
         "autoload": {
