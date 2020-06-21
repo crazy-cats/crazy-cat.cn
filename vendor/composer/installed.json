@@ -361,19 +361,19 @@
         "source": {
             "type": "git",
             "url": "https://github.com/crazy-cats/module-menu.git",
-            "reference": "3d5afd3038004d44678c6c020d3f1f0aa73104d2"
+            "reference": "ca024f6c9b34cbcc621f5bd85f8f89983ceedb93"
         },
         "dist": {
             "type": "tar",
-            "url": "https://repo.crazy-cat.cn//dist/crazycat/module-menu/crazycat-module-menu-v1.0.0-ea22c6.tar",
-            "reference": "3d5afd3038004d44678c6c020d3f1f0aa73104d2",
-            "shasum": "0af5d32345455e0fdeb45458110b694205b5c7ee"
+            "url": "https://repo.crazy-cat.cn//dist/crazycat/module-menu/crazycat-module-menu-v1.0.0-f3b3af.tar",
+            "reference": "ca024f6c9b34cbcc621f5bd85f8f89983ceedb93",
+            "shasum": "5a90604ba3e663eb314d67bee5070440115ae1b8"
         },
         "require": {
             "crazycat/framework": "~1.0",
             "crazycat/module-base": "~1.0"
         },
-        "time": "2020-06-11T17:50:59+00:00",
+        "time": "2020-06-21T15:24:24+00:00",
         "type": "crazycat-module",
         "installation-source": "dist",
         "autoload": {
